@@ -45,17 +45,9 @@
             <div class="container-fluid position-absolute top-50 start-0"  style="/*top:25% !important*/">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 rounded-3 p-4" style="background: rgba(194, 194, 194, 0.2);">
                             <h1 class="display-5 fw-bold lh-1 mb-3 text-white">Responsive left-aligned hero with image</h1>
                             <p class="lead text-white">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-                            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
                                 <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
@@ -69,28 +61,11 @@
       	<div class="b-example-divider"></div>
 
 		<!-- Services -->
-		<div class="container col-xxl-8 px-4 py-5">
-			<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-				<div class="col-10 col-sm-8 col-lg-6">
-				<img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-				</div>
-				<div class="col-lg-6">
-				<h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-				<p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-				<div class="d-grid gap-2 d-md-flex justify-content-md-start">
-					<button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-					<button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-				</div>
-				</div>
-			</div>
-			</div>
-
-		<!-- About Us -->
-		<div class="container-fluid bg-secondary">
-			<div class="container col-xxl-8 px-4 py-5">
-				<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+		<div class="container-fluid">
+			<div class="container p-5">
+				<div class="row align-items-center py-5">
 					<div class="col-10 col-sm-8 col-lg-6">
-						<img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+						<img src="https://getbootstrap.com/docs/5.0/examples/heroes/bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
 					</div>
 					<div class="col-lg-6">
 						<h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
@@ -104,30 +79,56 @@
 			</div>
 		</div>
 
+        <div class="b-example-divider"></div>
+
+		<!-- About Us -->
+		<div class="container-fluid" style="background-color: #346B8B">
+			<div class="container py-5">
+				<div class="row flex-lg-row-reverse align-items-center py-5">
+					<div class="col-10 col-sm-8 col-lg-6">
+						<img src="https://getbootstrap.com/docs/5.0/examples/heroes/bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+					</div>
+					<div class="col-lg-6">
+						<h1 class="display-5 fw-bold lh-1 mb-3 text-white">Responsive left-aligned hero with image</h1>
+						<p class="lead text-white">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+						<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+							<button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+							<button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<!-- Contact Us -->
-        <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="contactus">
-            <div class="row align-items-center g-5 py-5">
-              <div class="col-lg-7 text-center text-lg-start">
-                <h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1>
-                <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
-              </div>
-              <div class="col-10 mx-auto col-lg-5">
-                <form class="p-5 border rounded-3 bg-light">
-                  <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
-                    <label for="floatingInput">Name</label>
-                  </div>
-                  <div class="form-floating mb-3">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: pointer;">
-                    <label for="floatingPassword">Phone Number</label>
-                  </div>
-                  <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
-                  <hr class="my-4">
-                  <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
-                </form>
-              </div>
-            </div>
-        </div>
+		<div class="container-fluid py-5">
+			<div class="container" id="contactus">
+				<div class="row align-items-center g-5 py-5">
+				<div class="col-lg-7">
+                    <!--Google map-->
+                    <div id="" class="" style="">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37668.954620967386!2d125.55258255699518!3d7.072414854578399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d9f519e327f%3A0xb53a24589f79c573!2sDavao%20City%2C%20Davao%20del%20Sur%2C%20Philippines!5e0!3m2!1sen!2sus!4v1619238308744!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <!--Google Maps-->
+				</div>
+				<div class="col-10 mx-auto col-lg-5">
+					<form class="p-5 border rounded-3 bg-light">
+					<div class="form-floating mb-3">
+						<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+						<label for="floatingInput">Name</label>
+					</div>
+					<div class="form-floating mb-3">
+						<input type="password" class="form-control" id="floatingPassword" placeholder="Password" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: pointer;">
+						<label for="floatingPassword">Phone Number</label>
+					</div>
+					<button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+					<hr class="my-4">
+					<small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+					</form>
+				</div>
+				</div>
+			</div>
+		</div>
     </main>  
      
     <footer class="pt-4 pt-md-5 border-top bg-dark">
