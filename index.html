@@ -207,61 +207,65 @@
 		<div class="container-fluid py-5" id="requestQuote">
 			<div class="container">
 				<div class="row align-items-center g-5 py-5">
-				<div class="col-lg-7">
-                    <!--Google map-->
-                    <!-- <div id="" class="" style="">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37668.954620967386!2d125.55258255699518!3d7.072414854578399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d9f519e327f%3A0xb53a24589f79c573!2sDavao%20City%2C%20Davao%20del%20Sur%2C%20Philippines!5e0!3m2!1sen!2sus!4v1619238308744!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div> -->
-                    <!--Google Maps-->
-                    <div class="pb-5">
-                        <p><span class="display-4 fw-bold lh-sm mb-3 text-black">Davao City</span></p>
-                        <p><span class="display-3 fw-bold lh-sm mb-3 text-black">Trucking Services</span></p>
-                        <p><span class="display-2 fw-bold lh-sm mb-3 text-black">We got you covered!</span></p>
+                    <div class="col-lg-7">
+                        <!--Google map-->
+                        <!-- <div id="" class="" style="">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37668.954620967386!2d125.55258255699518!3d7.072414854578399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d9f519e327f%3A0xb53a24589f79c573!2sDavao%20City%2C%20Davao%20del%20Sur%2C%20Philippines!5e0!3m2!1sen!2sus!4v1619238308744!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div> -->
+                        <!--Google Maps-->
+                        <div class="pb-5">
+                            <p><span class="display-4 fw-bold lh-sm mb-3 text-black">Davao City</span></p>
+                            <p><span class="display-3 fw-bold lh-sm mb-3 text-black">Trucking Services</span></p>
+                            <p><span class="display-2 fw-bold lh-sm mb-3 text-black">We got you covered!</span></p>
+                        </div>
+                        <!-- <div class="pb-5">
+                            <p class="lead text-black">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                        </div> -->
+                        <div class="col-6 col-md">
+                            <div class="bd-example">
+                                <address class="text-black fs-4">
+                                    <strong>Gabs Cargo Delivery Services</strong><br>
+                                    Globe: 09955366547<br>
+                                    Sun: 09338662679<br>
+                                    Email: gabstrucking@gmail.com
+                                </address>
+                                </div>
+                        </div>
                     </div>
-                    <!-- <div class="pb-5">
-                        <p class="lead text-black">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                    </div> -->
-                    <div class="col-6 col-md">
-                        <div class="bd-example">
-                            <address class="text-black fs-4">
-                                <strong>Gabs Cargo Delivery Services</strong><br>
-                                Globe: 09955366547<br>
-                                Sun: 09338662679<br>
-                                Email: gabstrucking@gmail.com
-                            </address>
+                    <!-- Reference: 
+                        https://www.youtube.com/watch?v=ZAkESLyXO74
+                        https://www.youtube.com/watch?v=0udw0nol6Po 
+                        https://stackoverflow.com/questions/5733808/submit-form-and-stay-on-same-page -->
+                    <div class="col-10 mx-auto col-lg-5">
+                        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdonvsO9DobuDwaicc2A5qpcR0Uh3PoZkHzPPXxq65rOAsxcg/formResponse" method="POST" class="p-5 border rounded-3" style="background-color: #346B8B;">
+                            <div class="display-6 text-center pb-5 text-white">Request for a Quote</div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="formName" name="entry.1912439034"><label for="formName">Name</label>
                             </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="formEmail" name="entry.1922653077"><label for="formEmail">Email</label>
+                            </div>                    
+                            <div class="form-floating mb-3">
+                                <input type="tel" class="form-control" id="formPhoneNumber" name="entry.983282301"><label for="formPhoneNumber">Phone Number</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="formPickupDetails" style="height: 100px" name="entry.20619286"></textarea><label for="formPickupDetails">Pickup Details (Time/Locatiion)</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="fromDropDetails" style="height: 100px" name="entry.1877171395"></textarea><label for="fromDropDetails">Drop Details (Time/Location)</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="formCargoDetails" style="height: 100px" name="entry.476578414"></textarea><label for="formCargoDetails">Cargo Details (Type/Quantity)</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="formDetails" style="height: 100px" name="entry.444324276"></textarea><label for="formDetails">More Details / Specific Instructions</label>
+                            </div>
+                            <button class="w-100 btn btn-lg btn-primary" type="submit">Submit</button>
+                        </form>
+                        <div id="success-message" style="display:none">
+                            <p>Successfully Submitted!!!</p>
+                        </div>
                     </div>
-                </div>
-				<div class="col-10 mx-auto col-lg-5">
-					<form class="p-5 border rounded-3" style="background-color: #346B8B;">
-                    <div class="display-6 text-center pb-5 text-white">Request for a Quote</div>
-					<div class="form-floating mb-3">
-						<input type="text" class="form-control" id="formName"><label for="formName">Name</label>
-					</div>
-                    <div class="form-floating mb-3">
-						<input type="email" class="form-control" id="formEmail"><label for="formEmail">Email</label>
-					</div>                    
-					<div class="form-floating mb-3">
-						<input type="tel" class="form-control" id="formPhoneNumber"><label for="formPhoneNumber">Phone Number</label>
-					</div>
-                    <div class="form-floating mb-3">
-						<input type="time" class="form-control" id="formPickupTime"><label for="formPickupTime">Pickup Time</label>
-					</div>
-                    <div class="form-floating mb-3">
-						<input type="text" class="form-control" id="formPickupLocation"><label for="formPickupLocation">Pickup Location</label>
-					</div>
-                    <div class="form-floating mb-3">
-						<input type="text" class="form-control" id="fromDropLocation"><label for="fromDropLocation">Drop Location</label>
-					</div>
-                    <div class="form-floating mb-3">
-						<input type="text" class="form-control" id="formTypeCargo"><label for="formTypeCargo">Type of Cargo</label>
-					</div>
-                    <div class="form-floating mb-3">
-						<textarea class="form-control" id="formDetails" style="height: 100px"></textarea><label for="formDetails">More Details / Specific Instructions</label>
-					</div>
-					<button class="w-100 btn btn-lg btn-primary" type="submit">Submit</button>
-					</form>
-				</div>
 				</div>
 			</div>
 		</div>
@@ -279,6 +283,18 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>  
     <script>
+        $(document).ready(function(){
+            var $form = $('form');
+            $form.submit(function(){
+                $.post($(this).attr('action'), $(this).serialize(), function(response){
+                        // do something here on success
+                },'json');
+                $(this).fadeOut("slow");
+                $('#success-message').fadeIn("slow");
+                return false;
+            });
+        });
+
         // Reference: https://www.youtube.com/watch?v=x0YnVwAuNQI
         $(document).ready(function() {
   
